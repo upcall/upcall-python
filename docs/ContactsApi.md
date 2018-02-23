@@ -1,4 +1,4 @@
-# swagger_client.ContactsApi
+# upcall.ContactsApi
 
 All URIs are relative to *https://api.upcall.com/api/v2*
 
@@ -23,21 +23,21 @@ Create contact for campaign
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import upcall
+from upcall.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: api_key
-swagger_client.configuration.api_key['Token'] = 'YOUR_API_KEY'
+upcall.configuration.api_key['Token'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-# swagger_client.configuration.api_key_prefix['Token'] = 'Bearer'
+# upcall.configuration.api_key_prefix['Token'] = 'Bearer'
 # Configure OAuth2 access token for authorization: oauth2
-swagger_client.configuration.access_token = 'YOUR_ACCESS_TOKEN'
+upcall.configuration.access_token = 'YOUR_ACCESS_TOKEN'
 
 # create an instance of the API class
-api_instance = swagger_client.ContactsApi()
+api_instance = upcall.ContactsApi()
 id = 'id_example' # str | ID of campaign
-contact = swagger_client.Contact() # Contact | Contact data
+contact = upcall.Contact() # Contact | Contact data
 custom_fields = true # bool | If set, custom fields will be displayed in the output (optional)
 
 try: 
@@ -82,19 +82,19 @@ Delete contact
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import upcall
+from upcall.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: api_key
-swagger_client.configuration.api_key['Token'] = 'YOUR_API_KEY'
+upcall.configuration.api_key['Token'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-# swagger_client.configuration.api_key_prefix['Token'] = 'Bearer'
+# upcall.configuration.api_key_prefix['Token'] = 'Bearer'
 # Configure OAuth2 access token for authorization: oauth2
-swagger_client.configuration.access_token = 'YOUR_ACCESS_TOKEN'
+upcall.configuration.access_token = 'YOUR_ACCESS_TOKEN'
 
 # create an instance of the API class
-api_instance = swagger_client.ContactsApi()
+api_instance = upcall.ContactsApi()
 id = 'id_example' # str | ID of contact to delete
 
 try: 
@@ -136,19 +136,19 @@ Fetching contacts for campaign
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import upcall
+from upcall.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: api_key
-swagger_client.configuration.api_key['Token'] = 'YOUR_API_KEY'
+upcall.configuration.api_key['Token'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-# swagger_client.configuration.api_key_prefix['Token'] = 'Bearer'
+# upcall.configuration.api_key_prefix['Token'] = 'Bearer'
 # Configure OAuth2 access token for authorization: oauth2
-swagger_client.configuration.access_token = 'YOUR_ACCESS_TOKEN'
+upcall.configuration.access_token = 'YOUR_ACCESS_TOKEN'
 
 # create an instance of the API class
-api_instance = swagger_client.ContactsApi()
+api_instance = upcall.ContactsApi()
 id = 'id_example' # str | ID of campaign
 limit = 56 # int | Amount of records to return. 25 by default. (optional)
 start_id = 56 # int | Object ID to fetch next page (optional)
@@ -221,19 +221,19 @@ Fetching custom fields for contact
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import upcall
+from upcall.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: api_key
-swagger_client.configuration.api_key['Token'] = 'YOUR_API_KEY'
+upcall.configuration.api_key['Token'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-# swagger_client.configuration.api_key_prefix['Token'] = 'Bearer'
+# upcall.configuration.api_key_prefix['Token'] = 'Bearer'
 # Configure OAuth2 access token for authorization: oauth2
-swagger_client.configuration.access_token = 'YOUR_ACCESS_TOKEN'
+upcall.configuration.access_token = 'YOUR_ACCESS_TOKEN'
 
 # create an instance of the API class
-api_instance = swagger_client.ContactsApi()
+api_instance = upcall.ContactsApi()
 id = 'id_example' # str | ID of contact
 limit = 56 # int | Amount of records to return. 25 by default. (optional)
 start_id = 56 # int | Object ID to fetch next page (optional)
@@ -282,19 +282,19 @@ Fetch specific contact
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import upcall
+from upcall.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: api_key
-swagger_client.configuration.api_key['Token'] = 'YOUR_API_KEY'
+upcall.configuration.api_key['Token'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-# swagger_client.configuration.api_key_prefix['Token'] = 'Bearer'
+# upcall.configuration.api_key_prefix['Token'] = 'Bearer'
 # Configure OAuth2 access token for authorization: oauth2
-swagger_client.configuration.access_token = 'YOUR_ACCESS_TOKEN'
+upcall.configuration.access_token = 'YOUR_ACCESS_TOKEN'
 
 # create an instance of the API class
-api_instance = swagger_client.ContactsApi()
+api_instance = upcall.ContactsApi()
 id = 'id_example' # str | ID of contact to fetch
 custom_fields = true # bool | If set, custom fields will be displayed in the output (optional)
 
@@ -339,21 +339,21 @@ Update contact
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import upcall
+from upcall.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: api_key
-swagger_client.configuration.api_key['Token'] = 'YOUR_API_KEY'
+upcall.configuration.api_key['Token'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-# swagger_client.configuration.api_key_prefix['Token'] = 'Bearer'
+# upcall.configuration.api_key_prefix['Token'] = 'Bearer'
 # Configure OAuth2 access token for authorization: oauth2
-swagger_client.configuration.access_token = 'YOUR_ACCESS_TOKEN'
+upcall.configuration.access_token = 'YOUR_ACCESS_TOKEN'
 
 # create an instance of the API class
-api_instance = swagger_client.ContactsApi()
+api_instance = upcall.ContactsApi()
 id = 'id_example' # str | ID of contact to update
-contact = swagger_client.Contact1() # Contact1 | Contact data
+contact = upcall.Contact1() # Contact1 | Contact data
 custom_fields = true # bool | If set, custom fields will be displayed in the output (optional)
 
 try: 

@@ -1,4 +1,4 @@
-# swagger_client.CampaignsApi
+# upcall.CampaignsApi
 
 All URIs are relative to *https://api.upcall.com/api/v2*
 
@@ -22,20 +22,20 @@ Create campaign
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import upcall
+from upcall.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: api_key
-swagger_client.configuration.api_key['Token'] = 'YOUR_API_KEY'
+upcall.configuration.api_key['Token'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-# swagger_client.configuration.api_key_prefix['Token'] = 'Bearer'
+# upcall.configuration.api_key_prefix['Token'] = 'Bearer'
 # Configure OAuth2 access token for authorization: oauth2
-swagger_client.configuration.access_token = 'YOUR_ACCESS_TOKEN'
+upcall.configuration.access_token = 'YOUR_ACCESS_TOKEN'
 
 # create an instance of the API class
-api_instance = swagger_client.CampaignsApi()
-campaign = swagger_client.Campaign() # Campaign | Campaign data
+api_instance = upcall.CampaignsApi()
+campaign = upcall.Campaign() # Campaign | Campaign data
 
 try: 
     # Create a new campaign
@@ -77,19 +77,19 @@ Delete campaign
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import upcall
+from upcall.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: api_key
-swagger_client.configuration.api_key['Token'] = 'YOUR_API_KEY'
+upcall.configuration.api_key['Token'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-# swagger_client.configuration.api_key_prefix['Token'] = 'Bearer'
+# upcall.configuration.api_key_prefix['Token'] = 'Bearer'
 # Configure OAuth2 access token for authorization: oauth2
-swagger_client.configuration.access_token = 'YOUR_ACCESS_TOKEN'
+upcall.configuration.access_token = 'YOUR_ACCESS_TOKEN'
 
 # create an instance of the API class
-api_instance = swagger_client.CampaignsApi()
+api_instance = upcall.CampaignsApi()
 id = 'id_example' # str | ID of campaign
 
 try: 
@@ -131,19 +131,19 @@ Fetch a campaign
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import upcall
+from upcall.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: api_key
-swagger_client.configuration.api_key['Token'] = 'YOUR_API_KEY'
+upcall.configuration.api_key['Token'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-# swagger_client.configuration.api_key_prefix['Token'] = 'Bearer'
+# upcall.configuration.api_key_prefix['Token'] = 'Bearer'
 # Configure OAuth2 access token for authorization: oauth2
-swagger_client.configuration.access_token = 'YOUR_ACCESS_TOKEN'
+upcall.configuration.access_token = 'YOUR_ACCESS_TOKEN'
 
 # create an instance of the API class
-api_instance = swagger_client.CampaignsApi()
+api_instance = upcall.CampaignsApi()
 id = 'id_example' # str | ID of campaign
 
 try: 
@@ -186,19 +186,19 @@ Fetch campaigns
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import upcall
+from upcall.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: api_key
-swagger_client.configuration.api_key['Token'] = 'YOUR_API_KEY'
+upcall.configuration.api_key['Token'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-# swagger_client.configuration.api_key_prefix['Token'] = 'Bearer'
+# upcall.configuration.api_key_prefix['Token'] = 'Bearer'
 # Configure OAuth2 access token for authorization: oauth2
-swagger_client.configuration.access_token = 'YOUR_ACCESS_TOKEN'
+upcall.configuration.access_token = 'YOUR_ACCESS_TOKEN'
 
 # create an instance of the API class
-api_instance = swagger_client.CampaignsApi()
+api_instance = upcall.CampaignsApi()
 limit = 56 # int | Amount of records to return. 25 by default. (optional)
 start_id = 56 # int | Object ID to fetch next page (optional)
 end_id = 56 # int | Object ID to fetch previous page (optional)
@@ -265,21 +265,21 @@ Update campaign
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import upcall
+from upcall.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: api_key
-swagger_client.configuration.api_key['Token'] = 'YOUR_API_KEY'
+upcall.configuration.api_key['Token'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-# swagger_client.configuration.api_key_prefix['Token'] = 'Bearer'
+# upcall.configuration.api_key_prefix['Token'] = 'Bearer'
 # Configure OAuth2 access token for authorization: oauth2
-swagger_client.configuration.access_token = 'YOUR_ACCESS_TOKEN'
+upcall.configuration.access_token = 'YOUR_ACCESS_TOKEN'
 
 # create an instance of the API class
-api_instance = swagger_client.CampaignsApi()
+api_instance = upcall.CampaignsApi()
 id = 'id_example' # str | ID of campaign
-campaign = swagger_client.Campaign1() # Campaign1 | Campaign data
+campaign = upcall.Campaign1() # Campaign1 | Campaign data
 
 try: 
     # Update a campaign

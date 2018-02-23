@@ -1,4 +1,4 @@
-# swagger_client.AnswersApi
+# upcall.AnswersApi
 
 All URIs are relative to *https://api.upcall.com/api/v2*
 
@@ -19,19 +19,19 @@ Fetching answers for contact
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import upcall
+from upcall.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: api_key
-swagger_client.configuration.api_key['Token'] = 'YOUR_API_KEY'
+upcall.configuration.api_key['Token'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-# swagger_client.configuration.api_key_prefix['Token'] = 'Bearer'
+# upcall.configuration.api_key_prefix['Token'] = 'Bearer'
 # Configure OAuth2 access token for authorization: oauth2
-swagger_client.configuration.access_token = 'YOUR_ACCESS_TOKEN'
+upcall.configuration.access_token = 'YOUR_ACCESS_TOKEN'
 
 # create an instance of the API class
-api_instance = swagger_client.AnswersApi()
+api_instance = upcall.AnswersApi()
 id = 'id_example' # str | ID of contact
 limit = 56 # int | Amount of records to return. 25 by default. (optional)
 start_id = 56 # int | Object ID to fetch next page (optional)
@@ -84,19 +84,19 @@ Fetching answers for question
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import upcall
+from upcall.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: api_key
-swagger_client.configuration.api_key['Token'] = 'YOUR_API_KEY'
+upcall.configuration.api_key['Token'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-# swagger_client.configuration.api_key_prefix['Token'] = 'Bearer'
+# upcall.configuration.api_key_prefix['Token'] = 'Bearer'
 # Configure OAuth2 access token for authorization: oauth2
-swagger_client.configuration.access_token = 'YOUR_ACCESS_TOKEN'
+upcall.configuration.access_token = 'YOUR_ACCESS_TOKEN'
 
 # create an instance of the API class
-api_instance = swagger_client.AnswersApi()
+api_instance = upcall.AnswersApi()
 id = 'id_example' # str | ID of question
 limit = 56 # int | Amount of records to return. 25 by default. (optional)
 start_id = 56 # int | Object ID to fetch next page (optional)
